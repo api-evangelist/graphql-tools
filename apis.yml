@@ -1,0 +1,54 @@
+aid: graphql-tools
+name: GraphQL Tools
+description: "The Guild toolkit for building and merging GraphQL schemas with schema stitching, federation, schema delegation, mocking, and schema transformation utilities."
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://the-guild.dev/graphql/tools
+baseURL: https://the-guild.dev/graphql/tools
+created: 2026-06-14
+modified: 2026-06-14
+specificationVersion: '0.19'
+tags:
+  - GraphQL
+  - Schema Stitching
+  - Schema Merging
+  - Mocking
+  - Schema Transformation
+  - Federation
+apis:
+  - aid: graphql-tools:api
+    name: GraphQL Tools API
+    description: "A set of utilities for faster GraphQL development, enabling SDL-first schema building, type-safe resolver composition, schema stitching across multiple services, fine-grained mocking, and schema transformation and delegation."
+    tags:
+      - GraphQL
+      - Schema Stitching
+      - Mocking
+      - Schema Merging
+      - Federation
+    humanURL: https://the-guild.dev/graphql/tools/docs
+    baseURL: https://the-guild.dev/graphql/tools
+    properties:
+      - url: https://the-guild.dev/graphql/tools/docs
+        type: Documentation
+      - url: graphql/graphql-tools-graphql.md
+        type: GraphQL
+common:
+  - url: https://the-guild.dev/graphql/tools
+    type: Website
+  - url: https://the-guild.dev/graphql/tools/docs
+    type: Documentation
+  - url: https://www.linkedin.com/company/the-guild-software
+    type: LinkedIn
+  - url: https://github.com/ardatan/graphql-tools
+    type: GitHubOrganization
+  - url: https://the-guild.dev/graphql/tools/docs
+    type: Pricing
+  - url: plans/graphql-tools-plans.md
+    type: Plans
+  - url: rate-limits/graphql-tools-rate-limits.md
+    type: RateLimits
+  - url: finops/graphql-tools-finops.md
+    type: FinOps
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
