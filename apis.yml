@@ -33,6 +33,8 @@ apis:
       - url: graphql/graphql-tools-graphql.md
         type: GraphQL
 common:
+  - type: DomainSecurity
+    url: security/graphql-tools-domain-security.yml
   - url: https://the-guild.dev/graphql/tools
     type: Website
   - url: https://the-guild.dev/graphql/tools/docs
